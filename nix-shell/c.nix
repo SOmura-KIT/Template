@@ -1,7 +1,7 @@
 { pkgs ? import <nixpkgs> {} }:
 
 pkgs.mkShell {
-  name = "go-dev";
+  name = "c-dev";
 
   buildInputs = with pkgs; [
     gnumake
